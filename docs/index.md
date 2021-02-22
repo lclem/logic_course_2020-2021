@@ -5,24 +5,21 @@
 - ["Handbook of Practical Logic and Automated Reasoning"](https://www.cl.cam.ac.uk/~jrh13/atp/) by John Harrison [[vid1]](https://www.youtube.com/watch?v=Nydg-N83VYc)[[vid2]](https://www.youtube.com/watch?v=iPFJY0aW4E4)[[vid3]](https://www.youtube.com/watch?v=ZdJ0-V77f_0)[[vid4]](https://www.youtube.com/watch?v=g3EQKBMq5h0).
   - Great source of inspiration for a more applied approach to logic.
   - Expecially Sec. 2.9 on **DPLL SAT**.
-- Problem book (**latest version**: [2020-05-24](book/logic_book_2020-05-24.pdf); previous versions: [2020-02-24](book/logic_book_2020-02-24.pdf), [2020-03-15](book/logic_book_2020-03-15.pdf)). 
+
+- Problem book ([current version](book/logic_book_2021-03-XX.pdf)). 
   - It will be the main source of problems for the tutorials.
   - Feedback can be submitted in the form of [issues](https://github.com/lclem/logic_course/issues/).
     
 - [Agda FAQ](labs/agda/agda_FAQ.md).
   - More questions on Agda will be collected there if they pop up.
+
 - [skrypt](skrypt/calosc.pdf) (po polsku).
 - [Past exams](https://moodle.mimuw.edu.pl/mod/url/view.php?id=13772) [[mirror]](archive/exam-pack.zip).
 - [Past test questions](https://docs.google.com/forms/d/e/1FAIpQLSelSJszgoUIlPPx1U3AcY2gFmeBBp2p4y3y2Rmt-8Aoq27psQ/viewform?usp=sf_link).
 
 ## Remote learning
 
-Rocket.Chat:
-- [lecture](https://chat.mimuw.edu.pl/channel/LDI2020_lecture).
-- Lab groups: [1](https://chat.mimuw.edu.pl/channel/loglab1-jc), [2](https://chat.mimuw.edu.pl/channel/loglab2-lc).
-- Tutorial groups: [3](https://chat.mimuw.edu.pl/channel/ldi2020_tutorial3) [[google meet]](https://meet.google.com/twe-bedm-uwu).
-
-## (L)earning points
+<!-- ## (L)earning points
 - SAT project: **20 points** = 10 public tests + 10 private tests.
   - For each test: Timeout (1 min): 0 points. Correct: 1 point. Incorrect: -1 point.
   - Must show their code to their lab tutor before (and including) their respective last lab.
@@ -63,10 +60,14 @@ Rocket.Chat:
 * Lab06 (weeks 11,12) [Haskell] [[nextjournal]](https://nextjournal.com/a/MXfaeLFbJoDxtZJcgoKYS?token=LJUyJXBFS9931sYXePTAiJ): Classical first-order logic: Syntax, semantics, normal forms (NNF, PNF).
 * Lab07 (weeks 13,14) [Haskell] [[nextjournal]](https://nextjournal.com/a/MadgWAgVngRAgsQNyT2ff?token=JuTL4RzYRwBGph5Eg3rENE): Classical first-order logic: Skolemisation, deciding ∀∃-formulas, syllogisms.
 
+-->
+
 ## Outline
 
 | week  | lecture date | lecture topics  |  tutorials | 
 |---:|---:|:---|:--|
+
+<!-- 
 | 0  | 24.02 | organisation; historical context; introduction to propositional logic, tautology is coNP-complete, P1.2.3 (functionally complete set of connectives); multi-valued logics [[slides]](slides/01-intro.pdf) | sec. 1.1 (warm-up), P1.2.2 (normal forms: NNF, CNF, DNF), <del>P1.2.3 (functionally complete set of connectives),</del> P1.2.4 (equisatisfiable CNF); P1.3.1-1.3.4 (complexity of SAT)  | 
 | 1 | 02.03 | Hilbert's proof system for propositional logic, soundness, deduction theorem, completeness (weak and strong); compactness; interpolation, <del>Beth definability</del> [[slides]](slides/02-completeness.pdf) | proof examples, P1.5.2 (compactness => König's lemma), P1.5.3 (De Bruijn-Erdős' theorem), P1.5.4, P2.9.2 (compactness w.r.t. finite satisfiability/logical consequence), weak completeness implies strong completeness |
 | 2 | 09.03 | resolution (soundness, refutation completeness, <del>hardness of pigeon-hole formulas,</del> polynomial interpolants P1.7.6); SAT solving (DP, DPLL, phase transition); success of SAT solvers [[slides]](slides/03-resolution.pdf) | P1.3.5 (self-reducibility of SAT), P1.4.3 (exponential lower bound on equivalent CNF), P1.7.2 (interpolation), P1.7.3 (Beth definability), P1.7.4 (infinite extension of interpolation) |
@@ -86,4 +87,6 @@ Rocket.Chat:
 | 16 | 19.06 | **EXAM** 10am-1pm (3 hrs) | |
 | < ∞  | 05.09 | **2nd TAKE EXAM** [[subscription form]](https://docs.google.com/forms/d/e/1FAIpQLSdak3wSZNfrhACgb9qRqdHOEse1J5zWuC1PXp0_jujitEykXw/viewform?usp=sf_link) | |
 
-[[sources](https://github.com/lclem/logic_course)]
+-->
+
+[[sources](https://github.com/lclem/logic_course_2020-2021)]
