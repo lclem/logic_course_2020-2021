@@ -89,4 +89,6 @@
 
 -->
 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdANPE4e2NG-8xWrsEFrSouGdEeoibYRq00hos3SClUk1cn0g/viewform?embedded=true" width="640" height="3564" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 [[sources](https://github.com/lclem/logic_course_2020-2021)]
