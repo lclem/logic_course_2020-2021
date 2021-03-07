@@ -1,75 +1,6 @@
-## Teaching material
-
-- ["Mathematical Logic"](https://www.springer.com/gp/book/9780387942582) by Ebbinghaus, Flum, and Thomas.
-  - A classical book covering pure logic.
-- ["Handbook of Practical Logic and Automated Reasoning"](https://www.cl.cam.ac.uk/~jrh13/atp/) by John Harrison [[vid1]](https://www.youtube.com/watch?v=Nydg-N83VYc)[[vid2]](https://www.youtube.com/watch?v=iPFJY0aW4E4)[[vid3]](https://www.youtube.com/watch?v=ZdJ0-V77f_0)[[vid4]](https://www.youtube.com/watch?v=g3EQKBMq5h0).
-  - Great source of inspiration for a more applied approach to logic.
-<!--   - Expecially Sec. 2.9 on **DPLL SAT**. -->
-
-- Problem book ([current version](book/logic_book_2021-03-01.pdf)). 
-  - It will be the main source of problems for the tutorials.
-  - Feedback can be submitted in the form of [issues](https://github.com/lclem/logic_course/issues/).
-    
-- [Agda FAQ](labs/agda/agda_FAQ.md).
-  - More questions on Agda will be collected there if they pop up.
-
-- [Previous edition of the course](https://lclem.github.io/logic_course).
-- [skrypt](skrypt/calosc.pdf) (po polsku).
-- [Past exams](https://moodle.mimuw.edu.pl/mod/url/view.php?id=13772) [[mirror]](archive/exam-pack.zip).
-- [Past test questions](https://docs.google.com/forms/d/e/1FAIpQLSelSJszgoUIlPPx1U3AcY2gFmeBBp2p4y3y2Rmt-8Aoq27psQ/viewform?usp=sf_link).
-
-## Remote learning
-
-<!-- ## (L)earning points
-- SAT project: **20 points** = 10 public tests + 10 private tests.
-  - For each test: Timeout (1 min): 0 points. Correct: 1 point. Incorrect: -1 point.
-  - Must show their code to their lab tutor before (and including) their respective last lab.
-  - Any programming language is allowed.
-  - Announcement of the project: 20th March 2020.
-  - Deadline for submission: 12th June 2020, 20:00.
-  - [Detailed description](labs/task01_description.pdf). The submission is done in GitHub Classroom, as specified in the detailed description.
-  - [FAQ](labs/task01_FAQ.md) for the SAT project.
-- Agda project: **10 points** (10 exercises, 1 point each).
-  - Deadline for submission: 18th May 2020, 8pm.
-  - Assignment invitation link sent via USOS mail.
-- Mid-term exam: **30 points** (3 problems).
-  - Coverage: lecture and related tutorial material weeks 0-5 included, except intuitionistic propositional/FO logic (e.g., no compactness/Skolem-Löwenheim for first-order logic).
-- Final exam: **40 points** (3 problems).
-  - This year there will be no test for the final exam, just problems.
-- **NEW** 2nd take exam: Subscribe in [this form](https://docs.google.com/forms/d/e/1FAIpQLSdak3wSZNfrhACgb9qRqdHOEse1J5zWuC1PXp0_jujitEykXw/viewform?usp=sf_link) if you are interested.
-- Book feedback: **+1 point** for every legitimate factual mistake found (excluding spelling mistakes), awarded to the first student that finds the mistake. Submit an issue [here](https://github.com/lclem/logic_course/issues/).
-- Final score (up to 100 points without BOOK): SAT + Agda + MIDTERM + FINAL + BOOK.
-- Guaranteed conversion thresholds: [50,59] gives 3, [60,69] gives 3.5, [70,79] gives 4, [80,89] gives 4.5, [90,99] gives 5, [100,∞) gives 5.5.
-
-## Labs
-* Lab01 (weeks 0,1) [Haskell]: Normal forms (NNF, DNF, CNF), DNF SAT, Ramsey numbers. [[lab01.zip]](labs/lab01.zip)
-* Lab02 (weeks 2,3) [Haskell]: Equisatisfiable CNF, DP SAT. [[lab02.zip]](labs/lab02.zip)
-* **SAT project presentation** at the end of week 3.
-* Lab03 (weeks 4,5) [Agda Lab 01] [[notebook]](labs/agda/Lab01.ipynb) [[YT tutorial]](https://www.youtube.com/playlist?list=PL36j6ft5UmIr5x-NhLtKjmGdqoFpqR9Ol): Intuitionistic propositional logic. There are at least three options to work on this material:
-  1. Work on the notebook online with [mybinder](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab01.ipynb). This option is fully online, does not require any installation. In order to retain the work done, it is necessary to locally download the notebook once one is done with it. To start working again, launch mybinder as above and upload your local copy.
-  2. Work on the notebook locally by installing [Jupyter notebook](https://github.com/jupyter/notebook), Agda (see below), and the [Agda kernel](https://github.com/lclem/agda-kernel) for Jupyter.
-  3. Do not work on the notebook at all and use local Agda files. Can still use the notebook to follow the description of the exercies and the comments. Installation instructions can be found on [Agda's github page](https://github.com/agda/agda). Popular local editors for working with Agda include [emacs](https://agda.readthedocs.io/en/v2.6.1/tools/emacs-mode.html) and [Atom](https://atom.io/packages/agda-mode). Note that it may take long time to install Agda, especially if building from sources (>1 hr).
-* Lab04 (weeks 6,7) [Agda Lab 02] [[notebook]](labs/agda/Lab02.lagda.ipynb) [[mybinder]](https://mybinder.org/v2/gh/lclem/logic_course/master?filepath=docs/labs/agda/Lab02.lagda.ipynb) [[nextjournal]](https://nextjournal.com/a/MTG16bsjspisCTxKMrBHc?token=GntCzS9wsPvtKnojg74Dir): Intuitionistic first-order logic.
-  - Nextjournal instructions: Register on nextjournal, access the read-only link above, and *remix* the notebook. You can then add collaborators for collaborative editing.
-* **Agda project presentation** after all groups have officially seen [Agda Lab 02], which means at the end of week 8.
-
-* Lab05 (weeks 9,10) [Z3 lab] [[notebook]](labs/LabZ3.ipynb) [[colab]](https://colab.research.google.com/github/lclem/logic_course/blob/master/docs/labs/LabZ3.ipynb) [[nextjournal]](https://nextjournal.com/a/MTMzzvE9CWkVWUK8ncHnj?token=HSPYLRYt8L2yijQtvTMdZ8): SAT as a blackbox.
-  - Note: In order to use the Z3 library, we need more configurable systems like Nextjournal and Google Colab where Z3 can be installed.
-  - Nextjournal instructions: Remix the read-only notebook and add your tutor as a collaborator for real-time feedback.
-  - Google colab instructions: Open the link and save a local copy in Drive.
-  
-* Lab06 (weeks 11,12) [Haskell] [[nextjournal]](https://nextjournal.com/a/MXfaeLFbJoDxtZJcgoKYS?token=LJUyJXBFS9931sYXePTAiJ): Classical first-order logic: Syntax, semantics, normal forms (NNF, PNF).
-* Lab07 (weeks 13,14) [Haskell] [[nextjournal]](https://nextjournal.com/a/MadgWAgVngRAgsQNyT2ff?token=JuTL4RzYRwBGph5Eg3rENE): Classical first-order logic: Skolemisation, deciding ∀∃-formulas, syllogisms.
-
--->
+Please submit mistakes found in the problem book as [issues](https://github.com/lclem/logic_course_2020-2021/issues/).
 
 ## Outline
-
-
-<!--
-P1.2.3 (functionally complete set of connectives)
-<del>hardness of pigeon-hole formulas,</del>
--->
 
 | week  | lecture date | lecture topics  |  tutorials | 
 |---:|---:|:---|:--|
@@ -90,7 +21,5 @@ P1.2.3 (functionally complete set of connectives)
 | 14 | 07.06 | arithmetic and Gödel's incompleteness theorem <!-- [[live stream]](https://youtu.be/S9uauo3oAqY) [[slides]](slides/13-incompleteness.pdf) P3.1.2 (countability), P3.1.5-8 (reachability, connectivity, Eulerian and Hamiltonian cycles of infinite and finite graphs), P3.1.9 (colourability), P3.2.1 (compactness and SO), P3.2.2 (Skolem-Löwenheim and SO), P3.3.5 (star-free regular languages in FO) -->
 
 <!-- | 15 | 08.06 | | P5.1.3-4 (expressing numeric functions in arithmetic), P5.1.5 (Collatz), P5.2.1-4 (recognising languages in arithmetic), P5.2.7 (undecidability of the integers), P5.3.2 (elimination of weak second-order quantifiers in arithmetic) | -->
-
-<!-- [test](https://docs.google.com/forms/d/e/1FAIpQLSdANPE4e2NG-8xWrsEFrSouGdEeoibYRq00hos3SClUk1cn0g/viewform?usp=sf_link) -->
 
 [[sources](https://github.com/lclem/logic_course_2020-2021)]
